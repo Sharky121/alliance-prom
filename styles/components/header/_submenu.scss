@@ -1,0 +1,21 @@
+@use "../../abstract" as var;
+
+.submenu__list {
+  @extend %list-reset;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.submenu__link {
+  font-size: 14px;
+  font-weight: 400;
+  color: var.$brand-white;
+
+  &:hover,
+  &:active {
+    opacity: 0.7;
+  }
+}

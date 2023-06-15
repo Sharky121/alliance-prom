@@ -1,0 +1,19 @@
+@use "../../abstract" as var;
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo__img {
+  padding-right: 15px;
+  border-right: 1px solid var.$brand-white;
+}
+
+.logo__text {
+  font-size: 12px;
+  line-height: 1.4;
+  color: var.$brand-white;
+}

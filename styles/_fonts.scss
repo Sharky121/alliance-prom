@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 300;
+
+  src:  local('Open Sans'),
+        url('../public/fonts/opensanslight.woff2') format('woff2'),
+        url('../public/fonts/opensanslight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+
+  src:  local('Open Sans'),
+        url('../public/fonts/opensans.woff2') format('woff2'),
+        url('../public/fonts/opensans.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 500;
+
+  src:  local('Open Sans'),
+        url('../public/fonts/opensanssemibold.woff2') format('woff2'),
+        url('../public/fonts/opensanssemibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 700;
+
+  src:  local('Open Sans'),
+        url('../public/fonts/opensansbold.woff2') format('woff2'),
+        url('../public/fonts/opensansbold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 800;
+
+  src:  local('Open Sans'),
+        url('../public/fonts/opensansextrabold.woff2') format('woff2'),
+        url('../public/fonts/opensansextrabold.woff') format('woff');
+}
